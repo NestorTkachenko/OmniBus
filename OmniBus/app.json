@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "OmniBus",
+    "description": "This project is really great.",
+    "slug": "OmniBus",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "androidStatusBar": {
+      "hidden": true
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#ffffff",
+        "ldpi": "./assets/img/splash.png",
+        "mdpi": "./assets/img/splash.png",
+        "hdpi": "./assets/img/splash.png",
+        "xhdpi": "./assets/img/splash.png",
+        "xxhdpi": "./assets/img/splash.png",
+        "xxxhdpi": "./assets/img/splash.png",
+        "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.OmniBus.OmniBus"
+    },
+    "android": {
+      "package": "com.OmniBus.OmniBus",
+      "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyAVGq2c7-DeVumTW8-0Of2HDLu7vo9eFwk"
+      }
+    }
+    }
+  }
+}
